@@ -7,6 +7,7 @@ public class Solution6 {
    public static void lowerBound(List<? super Dog> obj) {
 	   	  Dog dog = (Dog) obj.get(1);
 	      System.out.println("Dog sound : "+dog.sound());
+	      System.out.println("hii");
 	   }
    private static void upperBound(List<? extends Dog> obj) {
 	   Dog dog = (Dog) obj.get(0);
