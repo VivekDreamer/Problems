@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 class Solution3{
 public static void main(String[] args) {
@@ -18,7 +18,7 @@ private static int[] sortedSquares(int[] nums) {
 	}
 	
 	//sorting
-	for(int i = 1;i<result.length;i++) {
+	/*for(int i = 1;i<result.length;i++) {
 		int j = i;
 		int a = result[i];
 		while((j>0)&&(result[j-1]>a)) {
@@ -28,5 +28,9 @@ private static int[] sortedSquares(int[] nums) {
 		result[j]=a;
 	}
 	return result;
-}	
+}	*/
+	
+	Arrays.sort(result);
+	return result;
+}
 }
